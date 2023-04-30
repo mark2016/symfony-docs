@@ -383,7 +383,7 @@ you can query the database directly:
 
     $ php bin/console dbal:run-sql 'SELECT * FROM product'
 
-    # on Windows systems not using Powershell, run this command instead:
+    # On Windows systems not using Powershell, use double quotes around the SQL:
     # php bin/console dbal:run-sql "SELECT * FROM product"
 
 Take a look at the previous example in more detail:
